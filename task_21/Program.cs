@@ -14,4 +14,4 @@ while (i < A.Length)
     Sum = Sum + (Math.Pow(A[i] - B[i], 2));
     i++;
 }
-Console.WriteLine(Math.Sqrt(Sum));
+Console.WriteLine("длинна отрезка AB=" + Math.Sqrt(Sum));
